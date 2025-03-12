@@ -1,1 +1,18 @@
-@use "reset";
+// @use "reset";
+@use "utils";
+// @use "base";
+// @use "layout";
+// @use "components";
+
+// @use "--exemple--/lesson5/variabels";
+
+// @use "--exemple--/lesson5/base";
+
+// @use "--exemple--/lesson5/button";
+
+@use "--exemple--/lesson6/nesting";
+@use "--exemple--/lesson6/combinators";
+@use "--exemple--/lesson9/extend";
+
+@use "--exemple--/lesson10/mixin";
+@use "--exemple--/lesson14/alerts";

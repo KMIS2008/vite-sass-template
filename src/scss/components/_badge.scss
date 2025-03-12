@@ -1,0 +1,20 @@
+
+@use "../utils/index" as v;
+
+.badge {
+@include v.base-badge();
+    color: v.$badge-cl;
+
+}
+
+.badge-completed {
+    background-color: v.$completed;
+}
+
+.badge-ended {
+    background-color: v.$eded;
+}
+
+.badge-active {
+    background-color: v.$active;
+}
